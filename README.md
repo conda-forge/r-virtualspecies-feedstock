@@ -1,11 +1,11 @@
-About r-virtualspecies
-======================
+About r-virtualspecies-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-virtualspecies-feedstock/blob/main/LICENSE.txt)
 
 Home: http://borisleroy.com/virtualspecies
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-virtualspecies-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides a framework for generating virtual species distributions, a procedure increasingly used in ecology to improve species distribution models. This package integrates the existing methodological approaches with the objective of generating virtual species distributions with increased ecological realism.
 
