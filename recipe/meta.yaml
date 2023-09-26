@@ -1,4 +1,4 @@
-{% set version = '1.5.1' %}
+{% set version = "1.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/virtualspecies_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/virtualspecies/virtualspecies_{{ version }}.tar.gz
-  sha256: a3b293aacfcd9df1defe2c8bcbd9f891ffea70f1dda4d215a6211a2c19570651
+  sha256: 828cc0b28ed104ea16c1550c06f28bf29838e9a6e94d3e9ba6736ae64e8019af
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -45,10 +45,7 @@ test:
 about:
   home: http://borisleroy.com/virtualspecies
   license: GPL-2.0-or-later
-  summary: Provides a framework for generating virtual species distributions, a procedure increasingly
-    used in ecology to improve species distribution models. This package integrates
-    the existing methodological approaches with the objective of generating virtual
-    species distributions with increased ecological realism.
+  summary: Provides a framework for generating virtual species distributions, a procedure increasingly used in ecology to improve species distribution models. This package integrates the existing methodological approaches with the objective of generating virtual species distributions with increased ecological realism.
   license_family: GPL3
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
