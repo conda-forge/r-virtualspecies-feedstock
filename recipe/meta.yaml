@@ -28,14 +28,16 @@ requirements:
     - r-base
     - r-ade4
     - r-raster
-    - r-rworldmap
-    - r-sp
+    - r-rnaturalearth
+    - r-terra
+    - r-viridis
   run:
     - r-base
     - r-ade4
     - r-raster
-    - r-rworldmap
-    - r-sp
+    - r-rnaturalearth
+    - r-terra
+    - r-viridis
 
 test:
   commands:
