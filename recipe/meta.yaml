@@ -1,6 +1,5 @@
 {% set version = "1.6" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-virtualspecies
@@ -13,8 +12,7 @@ source:
   sha256: 828cc0b28ed104ea16c1550c06f28bf29838e9a6e94d3e9ba6736ae64e8019af
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
